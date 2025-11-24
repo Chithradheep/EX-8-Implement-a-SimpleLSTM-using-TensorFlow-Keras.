@@ -3,21 +3,27 @@
 To Implement-a-SimpleLSTM-using-TensorFlow-Keras
 
 # ALGORITHM:
+
 Step 1 — Collect and Prepare Sequential Data
 Sequential or time-series data is gathered and preprocessed. The data is scaled (e.g., between 0
 and 1) because LSTMs work better with normalized values.
+
 Step 2 — Convert the Data into Input Sequences
 The dataset is divided into small overlapping sequences. For example, the last N values are used to
 predict the next value. The data is reshaped into (samples, timesteps, features) to match LSTM input
 format.
+
 Step 3 — Build the LSTM Model Using TensorFlow–Keras
 The model is compiled using an optimizer like Adam and a loss function like MSE.
+
 Step 4 — Train the LSTM Model
 The model is trained using the training sequences. During training, the LSTM learns long-term
 dependencies using its memory cell and gates. Validation data is used to monitor performance.
+
 Step 5 — Evaluate and Perform Predictions
 The model is tested on unseen sequences. Prediction results are compared with actual values to
 measure accuracy. The trained LSTM can now forecast future time steps or classify new sequences.
+
 Step 6 — Visualize and Analyze Results
 Graphs such as predicted vs. actual values and training loss curves are plotted. This helps
 understand how well the model learned the pattern and whether adjustments are needed.
