@@ -29,8 +29,8 @@ Graphs such as predicted vs. actual values and training loss curves are plotted.
 understand how well the model learned the pattern and whether adjustments are needed.
 
 ## PROGRAM:
-Name: Chithradheep R
-Register Number: 2305002003
+# Name: Chithradheep R
+# Register Number: 2305002003
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
